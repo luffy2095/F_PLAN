@@ -77,7 +77,6 @@ void *manager(void *a)
 								PERM_ERR.push(ERR.front());
 								ERR.pop();
 							}
-						printf("Total error count : %d\n", error_count);
 					}
 			}
 		else 
