@@ -1,0 +1,7 @@
+# Things to Try
+for each request for threads i.e EPS,OBC,etc, SPV will add the request to thread queue.
+Threads will check respective queue and handle the request accordingly.
+      1)Now for each threads requests can be handled sequentially or parallely
+      2)sequential is straight forward :- one at a time(next element accessed when called function returned) till queue is empty. if queue is empty wait on queue.
+      3)Or parallel , for each request , a temp thread is created which exits after succesful completion of task.
+Classification into primary and secondary functions necessary.
